@@ -1,0 +1,46 @@
+{"intents":
+[
+  {"tag":"greetings",
+  "patterns":["hello","hi","what's up?","whats up","good morning","good evening","morning","how's it going?","how is it going?","how are you?"],
+  "responses":["Hello!","Hey!","what can I do for you?","Greeting, Human!"]
+  },
+
+
+  {"tag":"name",
+  "patterns":["What's your name?","can you tell me your name?","What do i call you?"],
+  "responses":["i'm a Chatbot. My name is Chatbot","Call me Chatbot since I'm a Chatbot."]
+  },
+
+
+  {"tag":"age",
+  "patterns":["What's your age?","How old are you?","age?"],
+  "responses":["My own is 25!","My owner is 25 years old!"]
+  },
+  
+  {"tag":"doing",
+  "patterns":["what are you doing now?","what are you up to?","is everything ok?","what's up?"],
+  "responses":["I'm an simple chatbot created by chenlong to be interesting and helpful. I don't actually do anything when I'm not conversing - I don't have an internal experience or run background processes."]
+  },
+
+  {"tag":"code",
+  "patterns":["can you write code?","do you know how to write code?","code?","python","can you program?"],
+  "responses":["Not really, i haven't been trained with huge amount of programming data, but i can write you a demo code, what kind of programming language you want to get demo code?pyhon, c++, or c#...?"]
+  },
+
+  {"tag":"python",
+  "patterns":["python","i want python demo code.","Python"],
+  "responses":["Here's a simple Python code demo: print('Hello!') name = input('What is your name?') print('It is nice to meet you,', name) this is a python code says hello and asks for your name."]
+  },
+
+  {"tag":"c++",
+  "patterns":["c++","C++","i want C++ demo code"],
+  "responses":["Here's a simple C++ demo code: #include <iostream> using namespace std; int main() {cout << 'Hello, world!' << endl; string name; cout << 'What is your name? '; cin >> name; cout << 'Hello, ' << name << '!' << endl; This program prints 'Hello, world!' and asks for your name."]
+  },
+
+
+  {"tag":"c#",
+  "patterns":["c#","i want C# demo code","C#"],
+  "responses":["Here's a simple C# demo code: using System; namespace HelloWorld {class Program {static void Main(string[] args){Console.WriteLine('Hello, world!');Console.Write('What is your name? ');string name = Console.ReadLine();Console.WriteLine('Hello, ' + name + '!'); This program says hello and asks for your name."]
+  }
+
+]}
